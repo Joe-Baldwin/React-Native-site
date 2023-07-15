@@ -15,6 +15,8 @@ export const fetchCampsites = createAsyncThunk(
     }
 );
 
+
+
 const campsitesSlice = createSlice({
     name: 'campsites',
     initialState: { isLoading: true, errMess: null, campsitesArray: [] },
@@ -37,5 +39,8 @@ const campsitesSlice = createSlice({
             });
     }
 });
+
+
+
 
 export const campsitesReducer = campsitesSlice.reducer;
