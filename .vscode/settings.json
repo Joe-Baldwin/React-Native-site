@@ -3,6 +3,7 @@
         "backcountry",
         "datetimepicker",
         "Nucamp",
+        "persistor",
         "reduxjs"
     ]
 }
